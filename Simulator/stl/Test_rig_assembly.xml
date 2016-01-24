@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="07/13/15||22:36:41" using="SimMechanics Link Version 4.2" from="SolidWorks 23.3.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Test_rig_assembly" uid="Test_rig_assembly" version="497">
+<AssemblyFile name="Test_rig_assembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="t_slotted_double_8ft-1" uid="t_slotted_double_8ft-1" entityUid="t_slotted_double_8ft*:*47065T213">
+<Transform>
+<Rotation>1 0 1.63255e-015 1.63255e-015 -1.05035e-015 -1 0 1 -1.05035e-015</Rotation>
+<Translation>0.723427 2.20139 1.37197</Translation>
+</Transform>
+</Instance>
+<Instance name="47065T191_70deg-1" uid="47065T191_70deg-1" entityUid="47065T191_70deg*:*47065T191">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.748827 0.994885 2.24351</Translation>
+</Transform>
+</Instance>
+<Instance name="t_slotted_double_6ft-1" uid="t_slotted_double_6ft-1" grounded="true" entityUid="t_slotted_double_6ft*:*47065T213">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.723427 0.969487 1.37197</Translation>
+</Transform>
+</Instance>
+<Instance name="Mirror47065T191_70deg-2" uid="Mirror47065T191_70deg-2" entityUid="Mirror47065T191_70deg*:*47065T191">
+<Transform>
+<Rotation>0 0 1 1.9641e-015 1 0 -1 1.9641e-015 0</Rotation>
+<Translation>0.748827 0.994885 0.500426</Translation>
+</Transform>
+</Instance>
+<Instance name="t_slotted_single_8ft-2" uid="t_slotted_single_8ft-2" entityUid="t_slotted_single_8ft*:*47065T209">
+<Transform>
+<Rotation>1 0 0 0 0.34202 0.939693 -5.0541e-016 -0.939693 0.34202</Rotation>
+<Translation>0.748827 2.15727 0.923498</Translation>
+</Transform>
+</Instance>
+<Instance name="Mirror47065T191_20deg-3" uid="Mirror47065T191_20deg-3" entityUid="Mirror47065T191_20deg*:*47065T191">
+<Transform>
+<Rotation>-1.63255e-015 0 -1 1 1.18694e-015 -1.63255e-015 1.18694e-015 -1 0</Rotation>
+<Translation>0.748827 3.31965 1.34657</Translation>
+</Transform>
+</Instance>
+<Instance name="47065T191_20deg-2" uid="47065T191_20deg-2" entityUid="47065T191_20deg*:*47065T191">
+<Transform>
+<Rotation>-1.63255e-015 0 1 1 -9.13756e-016 1.63255e-015 9.13756e-016 1 0</Rotation>
+<Translation>0.748827 3.31965 1.39737</Translation>
+</Transform>
+</Instance>
+<Instance name="t_slotted_double_3ft_wCart-2" uid="t_slotted_double_3ft_wCart-2" entityUid="t_slotted_double_3ft_wCart*:*47065T213">
+<Transform>
+<Rotation>1.60982e-015 0 1 -1 1.03622e-015 1.72085e-015 -1.03622e-015 -1 0</Rotation>
+<Translation>1.22578 2.20187 1.37197</Translation>
+</Transform>
+</Instance>
+<Instance name="t_slotted_single_3ft-2" uid="t_slotted_single_3ft-2" entityUid="t_slotted_single_3ft*:*47065T209">
+<Transform>
+<Rotation>0 0 -1 -1 0 0 0 1 0</Rotation>
+<Translation>1.16793 0.969485 0.444867</Translation>
+</Transform>
+</Instance>
+<Instance name="t_slotted_single_3ft-1" uid="t_slotted_single_3ft-1" entityUid="t_slotted_single_3ft*:*47065T209">
+<Transform>
+<Rotation>0 0 -1 1 -1.49127e-015 0 -1.49127e-015 -1 0</Rotation>
+<Translation>1.16793 0.969487 2.29907</Translation>
+</Transform>
+</Instance>
+<Instance name="47065T182-1" uid="47065T182-1" entityUid="47065T182*:*47065T182">
+<Transform>
+<Rotation>0 -1.55542e-015 1 -1.55542e-015 1 1.55542e-015 -1 -1.55542e-015 0</Rotation>
+<Translation>0.710727 1.00759 1.39872</Translation>
+</Transform>
+</Instance>
+<Instance name="t_slotted_single_8ft-1" uid="t_slotted_single_8ft-1" entityUid="t_slotted_single_8ft*:*47065T209">
+<Transform>
+<Rotation>1 0 0 0 0.34202 -0.939693 5.19841e-016 0.939693 0.34202</Rotation>
+<Translation>0.748827 2.15727 1.82044</Translation>
+</Transform>
+</Instance>
+<Instance name="47065T175-2" uid="47065T175-2" entityUid="47065T175*:*47065T175">
+<Transform>
+<Rotation>1 0 0 0 0 1 0 -1 0</Rotation>
+<Translation>1.59973 0.971074 2.28637</Translation>
+</Transform>
+</Instance>
+<Instance name="t_slotted_single_6ft-2" uid="t_slotted_single_6ft-2" entityUid="t_slotted_single_6ft*:*47065T209">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>1.61243 0.969487 1.37197</Translation>
+</Transform>
+</Instance>
+<Instance name="47065T175-1" uid="47065T175-1" entityUid="47065T175*:*47065T175">
+<Transform>
+<Rotation>-1 0 0 0 -1.10415e-015 -1 0 -1 1.10353e-015</Rotation>
+<Translation>0.761527 0.971073 2.28637</Translation>
+</Transform>
+</Instance>
+<Instance name="47065T175-3" uid="47065T175-3" entityUid="47065T175*:*47065T175">
+<Transform>
+<Rotation>-1 0 0 0 0 1 0 1 0</Rotation>
+<Translation>0.761527 0.971073 0.457567</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>0.0104131 0.0126987 0.9144</Position>
+<Axis>-3.79271e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_8ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 1.2192</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 0.9144</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_8ft-1</Uid>
+</InstancePath>
+<Position>0.0104131 0.0126987 1.2192</Position>
+<Axis>-3.79271e-016 1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident32">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>0.0149869 0.0126987 0.9144</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="point">
+<InstancePath>
+<Uid>t_slotted_double_8ft-1</Uid>
+</InstancePath>
+<Position>0.0149869 0.0126987 1.2192</Position>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 0.9144</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_8ft-1</Uid>
+</InstancePath>
+<Position>0.0104131 0.0126987 1.2192</Position>
+<Axis>-3.79271e-016 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Parallel name="Parallel15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 0.9144</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T191_70deg-1</Uid>
+</InstancePath>
+<Position>0.0127 -0.0127 0.0127</Position>
+<Axis>1 1.36592e-016 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>0.0104131 0.0126987 0.9144</Position>
+<Axis>-3.79271e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T191_70deg-1</Uid>
+</InstancePath>
+<Position>-0.0127 -0.0127 0.0127</Position>
+<Axis>1.36592e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>0.0265153 0.0045085 0.9144</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_3ft-1</Uid>
+</InstancePath>
+<Position>0.0045085 -0.00111528 0.4572</Position>
+<Axis>1 -1.55542e-015 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Perpendicular name="Perpendicular10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 0.9144</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_3ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 0.4572</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Perpendicular>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_3ft-1</Uid>
+</InstancePath>
+<Position>-0.00111528 0.0045085 0.4572</Position>
+<Axis>3.88855e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0111125</Position>
+<Axis>1.1855e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0111125</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>0.0299085 -0.00111528 0.9144</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_3ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 0.4572</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0111125</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident49">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 0.9144</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0111125</Position>
+<Axis>1.1855e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident50">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>0.0104131 0.0126987 0.9144</Position>
+<Axis>-3.79271e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-1</Uid>
+</InstancePath>
+<Position>-0.0460248 0 -0.0111125</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-2</Uid>
+</InstancePath>
+<Position>-0.0460248 0 0.0111125</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_6ft-2</Uid>
+</InstancePath>
+<Position>-0.00111528 0.0045085 0.9144</Position>
+<Axis>3.88855e-016 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0111125</Position>
+<Axis>1.22461e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_3ft-1</Uid>
+</InstancePath>
+<Position>-0.00111528 0.0045085 0.4572</Position>
+<Axis>3.88855e-016 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0111125</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_6ft-2</Uid>
+</InstancePath>
+<Position>-0.0045085 -0.00111528 0.9144</Position>
+<Axis>-1 -1.55542e-015 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_3ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 -0.4572</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0111125</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_3ft-1</Uid>
+</InstancePath>
+<Position>0.0045085 -0.00111528 0.4572</Position>
+<Axis>1 -1.55542e-015 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-2</Uid>
+</InstancePath>
+<Position>-0.0460248 0 0.0111125</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_6ft-2</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 0.9144</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-2</Uid>
+</InstancePath>
+<Position>0 0 -0.0111125</Position>
+<Axis>1.22461e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0111125</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>0.0299085 -0.00111528 0.9144</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident59">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 -0.9144</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0111125</Position>
+<Axis>1.22461e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident60">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>0.0104131 0.0126987 0.9144</Position>
+<Axis>-3.79271e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-3</Uid>
+</InstancePath>
+<Position>-0.0460248 0 0.0111125</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0111125</Position>
+<Axis>1.22461e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_3ft-2</Uid>
+</InstancePath>
+<Position>-0.00111528 0.0045085 0.4572</Position>
+<Axis>3.88855e-016 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-3</Uid>
+</InstancePath>
+<Position>0 0 -0.0111125</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_3ft-2</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 0.4572</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T175-3</Uid>
+</InstancePath>
+<Position>-0.0460248 0 0.0111125</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_3ft-2</Uid>
+</InstancePath>
+<Position>-0.0045085 -0.00111528 0.4572</Position>
+<Axis>-1 -1.55542e-015 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Parallel name="Parallel17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_8ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 -1.2192</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T191_20deg-2</Uid>
+</InstancePath>
+<Position>0.0127 -0.0127 0.0127</Position>
+<Axis>1 1.36592e-016 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident69">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_8ft-1</Uid>
+</InstancePath>
+<Position>0.0104131 0.0126987 1.2192</Position>
+<Axis>-3.79271e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T191_20deg-2</Uid>
+</InstancePath>
+<Position>-0.0127 -0.0127 0.0127</Position>
+<Axis>1.36592e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T191_70deg-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0127</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_8ft-1</Uid>
+</InstancePath>
+<Position>0.0045085 -0.00111528 1.2192</Position>
+<Axis>1 -1.55542e-015 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T191_70deg-1</Uid>
+</InstancePath>
+<Position>-0.00978418 0.0640141 -0.0174625</Position>
+<Axis>0.939693 0.34202 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_8ft-1</Uid>
+</InstancePath>
+<Position>-0.00111528 0.0045085 1.2192</Position>
+<Axis>3.88855e-016 1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_8ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 1.2192</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T191_70deg-1</Uid>
+</InstancePath>
+<Position>-0.0336524 0.0553268 -0.0174625</Position>
+<Axis>-0.34202 0.939693 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance23">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_8ft-1</Uid>
+</InstancePath>
+<Position>-0.00111528 0.0045085 1.2192</Position>
+<Axis>3.88855e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T191_20deg-2</Uid>
+</InstancePath>
+<Position>-0.0553268 0.0336524 0.0174625</Position>
+<Axis>0.34202 0.939693 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance24">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T191_20deg-2</Uid>
+</InstancePath>
+<Position>0 0 0.0127</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_8ft-1</Uid>
+</InstancePath>
+<Position>0.0045085 -0.00111528 1.2192</Position>
+<Axis>1 -1.55542e-015 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance25">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T191_20deg-2</Uid>
+</InstancePath>
+<Position>-0.0640141 0.00978418 0.0174625</Position>
+<Axis>-0.939693 0.34202 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_8ft-1</Uid>
+</InstancePath>
+<Position>-0.0104902 0.0104902 -1.2192</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident76">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_8ft-1</Uid>
+</InstancePath>
+<Position>0.0299085 -0.00111528 1.2192</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_single_8ft-1</Uid>
+</InstancePath>
+<Position>0.0045085 -0.00111528 1.2192</Position>
+<Axis>1 -1.55542e-015 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T182-1</Uid>
+</InstancePath>
+<Position>0.0127 0.0254 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>-0.0045085 -0.00111528 0.9144</Position>
+<Axis>-1 -1.55542e-015 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>47065T182-1</Uid>
+</InstancePath>
+<Position>0.0254 -0.0508 -0.0047625</Position>
+<Axis>3.64246e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_6ft-1</Uid>
+</InstancePath>
+<Position>-0.00111528 -0.0045085 0.9144</Position>
+<Axis>3.88855e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident78">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_8ft-1</Uid>
+</InstancePath>
+<Position>0.0104131 -0.0126987 1.2192</Position>
+<Axis>-1.13781e-015 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_3ft_wCart-2</Uid>
+</InstancePath>
+<Position>-0.015876 0.0127 -0.46355</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_8ft-1</Uid>
+</InstancePath>
+<Position>0.0299085 -0.00111528 1.2192</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>t_slotted_double_3ft_wCart-2</Uid>
+</InstancePath>
+<Position>-0.015876 -0.0127 -0.46355</Position>
+<Axis>1.11022e-016 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="47065T175" uid="47065T175*:*47065T175" version="334">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="47065T175.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00935534</Mass>
+<CenterOfMass>-0.0141645 0.0141645 0</CenterOfMass>
+<Inertia>2.63095e-006 2.63095e-006 4.43367e-006 0 0 1.31043e-006</Inertia>
+</MassProperties>
+<GeometryFile name="47065T175_47065T175_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.715294" g="0.715294" b="0.715294" a="1"/>
+<Emissive r="0.0602353" g="0.0602353" b="0.0602353" a="1"/>
+<Shininess>0.55</Shininess>
+</VisualProperties>
+</Part>
+<Part name="47065T182" uid="47065T182*:*47065T182" version="294">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="47065T182.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0207111</Mass>
+<CenterOfMass>0.0254 -0.0185894 -0.00238125</CenterOfMass>
+<Inertia>8.65366e-006 7.59538e-006 1.61707e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="47065T182_47065T182_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.715294" g="0.715294" b="0.715294" a="1"/>
+<Emissive r="0.0602353" g="0.0602353" b="0.0602353" a="1"/>
+<Shininess>0.55</Shininess>
+</VisualProperties>
+</Part>
+<Part name="47065T191_20deg" uid="47065T191_20deg*:*47065T191" version="1082">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="47065T191_20deg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0317661</Mass>
+<CenterOfMass>-0.0133258 0.00408692 6.08093e-010</CenterOfMass>
+<Inertia>8.1842e-006 1.74254e-005 1.593e-005 3.53877e-012 -1.63415e-012 -4.31049e-006</Inertia>
+</MassProperties>
+<GeometryFile name="47065T191_20deg_47065T191_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.715294" g="0.715294" b="0.715294" a="1"/>
+<Emissive r="0.0602353" g="0.0602353" b="0.0602353" a="1"/>
+<Shininess>0.55</Shininess>
+</VisualProperties>
+</Part>
+<Part name="47065T191_70deg" uid="47065T191_70deg*:*47065T191" version="1095">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="47065T191_70deg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0317661</Mass>
+<CenterOfMass>-0.00485021 0.0125625 6.08093e-010</CenterOfMass>
+<Inertia>1.80992e-005 7.92142e-006 1.6341e-005 3.37505e-012 -1.79787e-012 -4.10498e-006</Inertia>
+</MassProperties>
+<GeometryFile name="47065T191_70deg_47065T191_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.715294" g="0.715294" b="0.715294" a="1"/>
+<Emissive r="0.0602353" g="0.0602353" b="0.0602353" a="1"/>
+<Shininess>0.55</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Mirror47065T191_20deg" uid="Mirror47065T191_20deg*:*47065T191" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Mirror47065T191_20deg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0317663</Mass>
+<CenterOfMass>-0.0133257 0.00408689 -1.71065e-008</CenterOfMass>
+<Inertia>8.18421e-006 1.74254e-005 1.593e-005 -1.56755e-012 -7.82975e-012 -4.3105e-006</Inertia>
+</MassProperties>
+<GeometryFile name="Mirror47065T191_20deg_47065T191_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.715294" g="0.715294" b="0.715294" a="1"/>
+<Emissive r="0.0602353" g="0.0602353" b="0.0602353" a="1"/>
+<Shininess>0.55</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Mirror47065T191_70deg" uid="Mirror47065T191_70deg*:*47065T191" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Mirror47065T191_70deg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0317663</Mass>
+<CenterOfMass>-0.00485017 0.0125624 -1.71065e-008</CenterOfMass>
+<Inertia>1.80992e-005 7.92143e-006 1.6341e-005 3.03812e-012 -3.22408e-012 -4.10499e-006</Inertia>
+</MassProperties>
+<GeometryFile name="Mirror47065T191_70deg_47065T191_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.715294" g="0.715294" b="0.715294" a="1"/>
+<Emissive r="0.0602353" g="0.0602353" b="0.0602353" a="1"/>
+<Shininess>0.55</Shininess>
+</VisualProperties>
+</Part>
+<Part name="t_slotted_double_3ft_wCart" uid="t_slotted_double_3ft_wCart*:*47065T213" version="125">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="t_slotted_double_3ft_wCart.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.510148</Mass>
+<CenterOfMass>0.0127 0 -0.0397562</CenterOfMass>
+<Inertia>0.0418262 0.0419177 0.000166466 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="t_slotted_double_3ft_wCart_47065T213_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.715294" g="0.715294" b="0.715294" a="1"/>
+<Emissive r="0.0602353" g="0.0602353" b="0.0602353" a="1"/>
+<Shininess>0.55</Shininess>
+</VisualProperties>
+</Part>
+<Part name="t_slotted_double_6ft" uid="t_slotted_double_6ft*:*47065T213" version="119">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="t_slotted_double_6ft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.937336</Mass>
+<CenterOfMass>0.0127 0 0</CenterOfMass>
+<Inertia>0.261308 0.26148 0.000298922 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="t_slotted_double_6ft_47065T213_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.715294" g="0.715294" b="0.715294" a="1"/>
+<Emissive r="0.0602353" g="0.0602353" b="0.0602353" a="1"/>
+<Shininess>0.55</Shininess>
+</VisualProperties>
+</Part>
+<Part name="t_slotted_double_8ft" uid="t_slotted_double_8ft*:*47065T213" version="116">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="t_slotted_double_8ft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.24978</Mass>
+<CenterOfMass>0.0127 0 0</CenterOfMass>
+<Inertia>0.61933 0.619559 0.000398563 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="t_slotted_double_8ft_47065T213_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.715294" g="0.715294" b="0.715294" a="1"/>
+<Emissive r="0.0602353" g="0.0602353" b="0.0602353" a="1"/>
+<Shininess>0.55</Shininess>
+</VisualProperties>
+</Part>
+<Part name="t_slotted_single_3ft" uid="t_slotted_single_3ft*:*47065T209" version="138">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="t_slotted_single_3ft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.260237</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.0181496 0.0181496 3.39102e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="t_slotted_single_3ft_47065T209_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.715294" g="0.715294" b="0.715294" a="1"/>
+<Emissive r="0.0602353" g="0.0602353" b="0.0602353" a="1"/>
+<Shininess>0.55</Shininess>
+</VisualProperties>
+</Part>
+<Part name="t_slotted_single_6ft" uid="t_slotted_single_6ft*:*47065T209" version="136">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="t_slotted_single_6ft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.520475</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.145095 0.145095 6.78203e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="t_slotted_single_6ft_47065T209_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.715294" g="0.715294" b="0.715294" a="1"/>
+<Emissive r="0.0602353" g="0.0602353" b="0.0602353" a="1"/>
+<Shininess>0.55</Shininess>
+</VisualProperties>
+</Part>
+<Part name="t_slotted_single_8ft" uid="t_slotted_single_8ft*:*47065T209" version="131">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="t_slotted_single_8ft.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.693966</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.343894 0.343894 9.04271e-005 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="t_slotted_single_8ft_47065T209_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Diffuse r="0.752941" g="0.752941" b="0.752941" a="1"/>
+<Specular r="0.715294" g="0.715294" b="0.715294" a="1"/>
+<Emissive r="0.0602353" g="0.0602353" b="0.0602353" a="1"/>
+<Shininess>0.55</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>
